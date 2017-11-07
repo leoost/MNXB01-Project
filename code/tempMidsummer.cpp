@@ -27,7 +27,7 @@
 	oneDayHist->SetFillColor(kBlue-2);
 	oneDayHist->Draw();
 	oneDayHist->Fit("gaus");
-	leg->AddEntry("gauss");
+	leg->AddEntry("gaus");
 	leg->Draw("SAME");
 	 
  }	 
