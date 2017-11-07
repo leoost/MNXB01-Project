@@ -86,7 +86,7 @@ class tempTrender {
 				if(input != ""){
 					
 					//The data here is segmented into the format given in the raw data files, to allow for easy extraction.
-					//d sipmly signifies the delimiter between the numbers in the files.
+					//d simply signifies the delimiter between the numbers in the files.
 					data << input;
 					data >> yyyy >> d >> mm >> d >> dd >> d >> hour >> d >> min >> d >> sec >> d >> temperature >> d ;
 					datafile << yyyy << " " << mm << " " << dd << " " << hour << " " << temperature << endl;				
