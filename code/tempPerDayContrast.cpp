@@ -166,9 +166,9 @@ void plotComparison() {
 	leg->AddEntry(LundHist, "", "L");
 	LundHist->SetLineColor(kBlue);
 	LundHist->Draw("SAME");
-	
+	LundWarmHist->SetLineColor(kBlue);
 	LundWarmHist->Draw("SAME");
-	
+	LundColdHist->SetLineColor(kBlue);
 	LundColdHist->Draw("SAME");
 	
 	
@@ -213,6 +213,8 @@ void plotComparison() {
 		
 	leg->AddEntry(LuleHist, "", "L");
 	LuleHist->SetLineColor(kCyan);
+	LuleWarmHist->SetLineColor(kCyan);
+	LuleColdHist->SetLineColor(kCyan);
 	LuleHist->Draw("SAME");
 	LuleWarmHist->Draw("SAME");
 	LuleColdHist->Draw("SAME");
@@ -252,6 +254,8 @@ void plotComparison() {
 		
 	leg->AddEntry(BorasHist, "", "L");
 	BorasHist->SetLineColor(kGreen);
+	BorasWarmHist->SetLineColor(kGreen);
+	BorasColdHist->SetLineColor(kGreen);
 	BorasHist->Draw("SAME");
 	BorasWarmHist->Draw("SAME");
 	BorasColdHist->Draw("SAME");
@@ -290,6 +294,8 @@ void plotComparison() {
 		
 	leg->AddEntry(FalunHist, "", "L");
 	FalunHist->SetLineColor(kGreen +2);
+	FalunWarmHist->SetLineColor(kGreen +2);
+	FalunColdHist->SetLineColor(kGreen +2);
 	FalunHist->Draw("SAME");
 	FalunWarmHist->Draw("SAME");
 	FalunColdHist->Draw("SAME");
@@ -327,6 +333,8 @@ void plotComparison() {
 		
 	leg->AddEntry(FalsterHist, "", "L");
 	FalsterHist->SetLineColor(kGray+2);
+	FalsterWarmHist->SetLineColor(kGray+2);
+	FalsterColdHist->SetLineColor(kGray+2);
 	FalsterHist->Draw("SAME");
 	FalsterWarmHist->Draw("SAME");
 	FalsterColdHist->Draw("SAME");
@@ -365,6 +373,8 @@ void plotComparison() {
 	
 	leg->AddEntry(UmeaHist, "", "L");
 	UmeaHist->SetLineColor(kBlue-6);
+	UmeaWarmHist->SetLineColor(kBlue-6);
+	UmeaColdHist->SetLineColor(kBlue-6);
 	UmeaHist->Draw("SAME");
 	UmeaWarmHist->Draw("SAME");
 	UmeaColdHist->Draw("SAME");
@@ -404,6 +414,8 @@ void plotComparison() {
 		
 	leg->AddEntry(KarlHist, "", "L");
 	KarlHist->SetLineColor(kOrange +7);
+	KarlWarmHist->SetLineColor(kOrange +7);
+	KarlColdHist->SetLineColor(kOrange +7);
 	KarlHist->Draw("SAME");
 	KarlWarmHist->Draw("SAME");
 	KarlColdHist->Draw("SAME");
@@ -443,6 +455,8 @@ void plotComparison() {
 	
 	leg->AddEntry(VisbyHist, "", "L");
 	VisbyHist->SetLineColor(kBlack);
+	VisbyWarmHist->SetLineColor(kBlack);
+	VisbyColdHist->SetLineColor(kBlack);
 	VisbyHist->Draw("SAME");
 	VisbyColdHist->Draw("SAME");
 	VisbyWarmHist->Draw("SAME");
